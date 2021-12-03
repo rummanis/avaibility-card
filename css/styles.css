@@ -1,0 +1,211 @@
+/* Fonts */
+
+/* red-hat-display-regular - latin */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/red-hat-display-v7-latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/red-hat-display-v7-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/red-hat-display-v7-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/red-hat-display-v7-latin-regular.woff') format('woff'),
+    /* Modern Browsers */
+    url('../fonts/red-hat-display-v7-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/red-hat-display-v7-latin-regular.svg#RedHatDisplay') format('svg');
+  /* Legacy iOS */
+}
+
+/* red-hat-display-500 - latin */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/red-hat-display-v7-latin-500.eot');
+  /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/red-hat-display-v7-latin-500.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/red-hat-display-v7-latin-500.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/red-hat-display-v7-latin-500.woff') format('woff'),
+    /* Modern Browsers */
+    url('../fonts/red-hat-display-v7-latin-500.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/red-hat-display-v7-latin-500.svg#RedHatDisplay') format('svg');
+  /* Legacy iOS */
+}
+
+/* red-hat-display-700 - latin */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/red-hat-display-v7-latin-700.eot');
+  /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/red-hat-display-v7-latin-700.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/red-hat-display-v7-latin-700.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/red-hat-display-v7-latin-700.woff') format('woff'),
+    /* Modern Browsers */
+    url('../fonts/red-hat-display-v7-latin-700.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/red-hat-display-v7-latin-700.svg#RedHatDisplay') format('svg');
+  /* Legacy iOS */
+}
+
+/* red-hat-display-900 - latin */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/red-hat-display-v7-latin-900.eot');
+  /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/red-hat-display-v7-latin-900.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/red-hat-display-v7-latin-900.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/red-hat-display-v7-latin-900.woff') format('woff'),
+    /* Modern Browsers */
+    url('../fonts/red-hat-display-v7-latin-900.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/red-hat-display-v7-latin-900.svg#RedHatDisplay') format('svg');
+  /* Legacy iOS */
+}
+
+
+
+/* Original CSS */
+
+body {
+  display: flex;
+	flex-direction: column;
+  align-items: center;
+	justify-content: space-around;
+  font-family: 'Red Hat Display';
+	height: 100vh;
+	background-image: url(../images/pattern-background-desktop.svg);
+	background-position: 50% -11%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #e1e8ff;
+}
+
+
+/* Panel */
+
+.panel {
+  background-color: white;
+  text-align: center;
+  width: 100%;
+  max-width: 150px;
+  border-radius: 10px;
+	zoom: 80%;
+	box-shadow: 0px 19px 22px 3px hsl(221deg 100% 86%);
+	padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-pic {
+  border-radius: 10px 10px 0 0;
+}
+
+
+/* Order Summary */
+
+.txt {
+padding: 0 93px;
+font-size: 16px;
+}
+
+.txt h1 {
+  font-weight: 600;
+  font-size: 29px;
+  padding-top: 46px;
+}
+
+.txt p {
+  color: hsl(224, 23%, 55%);
+  line-height: 1.5;
+  padding: 20px 0;
+}
+
+
+/* Annual Plan */
+
+.subscription {
+  background-color: hsl(225, 100%, 98%);
+  width: 323px;
+  padding: 15px 15px;
+  margin: auto;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subscription div:nth-child(2) {
+  margin-right: 93px;
+  line-height: 1.4;
+}
+
+.subscription .sub-text, .subscription .sub-change {
+  font-weight: 600;
+}
+
+.subscription .sub-price {
+  color: hsl(224, 23%, 55%);
+}
+
+
+/* Buttons */
+
+.pay-btn {
+background-color: hsl(245, 75%, 52%);
+color: white;
+font-weight: 600;
+padding: 15px;
+width: 353px;
+border: none;
+border-radius: 8px;
+margin: 30px 0 36px;
+font-size : 16px;
+box-shadow: 0 14px 12px hsla(245deg 75% 52% / 25%);
+}
+
+.pay-btn, .sub-change, .cancel {
+	transition-duration: .2s;
+}
+
+.pay-btn:hover, .sub-change:hover {
+  cursor: pointer;
+	background-color: #6457ff;
+}
+
+.cancel {
+text-decoration: none;
+color: hsl(224, 23%, 55%);
+font-weight: 600;
+}
+
+.cancel:hover {
+color: #15141a;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 864px) {
+
+.panel {
+	zoom: 65%;
+}

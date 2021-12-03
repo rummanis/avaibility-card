@@ -1,0 +1,36 @@
+.container {
+            width: 450px;
+            height: 500px;
+            position: absolute;
+            background-color: white;
+            text-align: center;
+            border-radius: 10px;
+            zoom: 100%;
+            box-shadow: 5px 19px 22px 7px hsl(160deg 100% 86%);
+            left: 300px;
+            top: 100px;
+
+        }
+
+        .bal {
+            position: absolute;
+
+            width: 450px;
+            height: 400px;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 20px;
+            margin-top: -50px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            padding: 40px;
+            overflow-x: hidden;
+            margin-top: -50px;
+        }
